@@ -102,7 +102,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     import os
-    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+    TOKEN = "7924945419:AAG7cqywFNBtN-Jichi2sk_ePJv_33gFUjQ"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
